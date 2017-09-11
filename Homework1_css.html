@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+        <style type="text/css">
+            * {
+                box-sizing: border-box;
+            }
+            body { margin: 0; }
+            a { text-decoration: none; }
+			.menu {
+				width: 100%;
+				list-style-type: none;
+                color: #651FFF;
+                background-color: #CCFF90;
+                margin: 0;
+			}
+            .menu li {
+                display: block;
+                padding: 5px;
+            }
+			.menu>li {
+				display:inline-block;
+				width: 100px;
+			}
+			.menu li:hover {
+				background-color: #999;
+			}
+			.menu ul {
+				display: none;
+                position: absolute;
+                width: 100px;
+				background-color: #BDAAA4;
+				border: 1px solid #DD2C00;
+                margin-left: 50px;
+                margin-top: 50px;
+                padding: 10;
+			}
+			.menu li:hover ul {
+				display: block;
+				
+			}
+		</style>
+	</head>
+	<body>
+		<ul class="menu">
+			<li>
+				Menu
+				<ul>
+					<li>
+						<a href="#"> Open</a>
+					</li>
+					<li><a href="#"> Save</a></li>
+				</ul>
+			</li>
+			<li>
+				Settings
+				<ul>
+					<li><a href="#"> Edit </a></li>
+					<li><a href="#"> Notifications</a></li>
+				</ul>
+			</li>
+		</ul>
+	</body>
+</html>
